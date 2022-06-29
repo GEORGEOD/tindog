@@ -1,0 +1,184 @@
+#title{
+background-color: #ff4c68;
+color: #fff;
+position: relative;
+}
+
+
+
+.row{
+  margin: 5% auto 5% auto;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+H1{
+  font-family: 'russo one', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  line-height: 1.5;
+  font-family: font-family: 'Shadows Into Light', cursive;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-family: 'Russo one';
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* navigation bar */
+
+.navbar{
+  padding:0 0 4rem;
+
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+padding: 0 18px;
+
+}
+
+.nav-link{
+  font-family: 'Montserrat-light';
+  font-size:1.2rem;
+
+}
+
+/* downloadbuttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  transform: rotate(25deg);
+  width: 60%;
+  margin-left: 40%;
+  position: absolute;
+  right: 35%;
+}
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 10%;
+}
+
+#press{
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #ef8172;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+.card-mastiff{
+  padding-top: 3%;
+  margin: 7%;
+
+}
+
+/* PRICING SECTION */
+
+#pricing{
+  padding: 10%;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 2% 3%;
+}
+#cta{
+background-color:#ff4c68;
+text-align: center;
+padding: 4% 4%;
+color: #fff;
+
+}
+
+ /* FOOTER SECTION */
+
+#footer{
+  padding: 6% 6%;
+  text-align: center;
+}
+
+.george{
+  width: 40%;
+  border-radius: 40%;
+  padding-bottom: 7%;
+  position: sticky;
+}
+.gg{
+  padding-bottom: 3%;
+line-height: 5.5rem;
+}
+.fat{
+  margin: 0 1.5% 3%;
+  color: #ef8172;
+}
+.fot{
+  line-height: 1.7rem;
+}
+
+ @media (max-width: 1024px) {
+#title{
+  text-align: center;
+}
+
+  .title-image{
+  position: static;
+  margin-top:12%;
+}
+ }
